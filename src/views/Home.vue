@@ -1,6 +1,8 @@
 <template lang="pug">
   div.home
     img(alt="Vue logo" src="../assets/logo.png")
+    div#introduction
+      h3 @tocomi
 </template>
 
 <script lang="ts">
