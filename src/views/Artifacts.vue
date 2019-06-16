@@ -1,11 +1,10 @@
 <template lang="pug">
   div#artifacts
-    h1 This is aritfacts page
+    h1 Artifacts
     div.artifact(v-for="artifact in this.artifacts")
-      p {{ artifact.title }}
+      a(:href="artifact.link" target="_blank") {{ artifact.title }}
       p {{ artifact.description }}
-      p {{ artifact.link }}
-      p {{ artifact.github }}
+      a(:href="artifact.github" target="_blank") github
 </template>
 
 <script lang="ts">
@@ -20,7 +19,7 @@
     artifacts: Array<any> = [
       {
         title: 'Umaaji-Calculator',
-        description: 'あ\nい\nう',
+        description: '競馬の予想アプリです。過去の成績から各馬のスコア(ウマ味)を算出します。',
         link: 'https://umaaji-calculator.firebaseapp.com/',
         github: 'https://github.com/tocomi/umaaji-calculator',
       },
