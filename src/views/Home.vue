@@ -1,5 +1,5 @@
 <template lang="pug">
-  div.home
+  div#home
     img(alt="Vue logo" src="../assets/logo.png")
     div#introduction
       h3 @tocomi
