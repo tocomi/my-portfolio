@@ -2,7 +2,7 @@
   div#artifacts
     h1 Artifacts
     div.artifact(v-for="artifact in this.artifacts")
-      a(:href="artifact.link" target="_blank") {{ artifact.title }}
+      a.title(:href="artifact.link" target="_blank") {{ artifact.title }}
       p {{ artifact.description }}
       a(:href="artifact.github" target="_blank") github
 </template>
@@ -27,3 +27,11 @@
 
   }
 </script>
+
+<style lang="scss" scoped>
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+</style>
