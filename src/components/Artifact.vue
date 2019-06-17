@@ -2,7 +2,8 @@
   div.artifact
     a.title(:href="artifact.link" target="_blank") {{ artifact.title }}
     p {{ artifact.description }}
-    a(:href="artifact.github" target="_blank") github
+    a(:href="artifact.github" target="_blank")
+      img.icon(alt="github" src="../assets/github.png")
 </template>
 
 <script lang="ts">
@@ -20,9 +21,15 @@
 </script>
 
 <style lang="scss" scoped>
-.title {
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
+.artifact {
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .icon {
+    height: 50px;
+    width: 50px;
+  }
 }
 </style>
