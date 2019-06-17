@@ -1,17 +1,16 @@
 <template lang="pug">
   div#artifacts
     h1 Artifacts
-    div.artifact(v-for="artifact in this.artifacts")
-      a.title(:href="artifact.link" target="_blank") {{ artifact.title }}
-      p {{ artifact.description }}
-      a(:href="artifact.github" target="_blank") github
+    Artifact(v-for="artifact in this.artifacts" :artifact="artifact")
 </template>
 
 <script lang="ts">
   import { Component, Vue } from "vue-property-decorator"
+  import Artifact from '../components/Artifact.vue'
   
   @Component({
     components: {
+      Artifact,
     },
   })
   export default class Index extends Vue {
@@ -29,9 +28,4 @@
 </script>
 
 <style lang="scss" scoped>
-.title {
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-}
 </style>
