@@ -20,8 +20,8 @@ export default class Home extends Vue {}
 #about {
   #icon {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
   }
 }
 </style>
