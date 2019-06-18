@@ -25,6 +25,8 @@
 
 <style lang="scss" scoped>
 .artifact {
+  margin: auto;
+  max-width: 600px;
   border-radius: 5px;
   .header {
     position: relative;

@@ -4,7 +4,8 @@
     img#icon(alt="Vue logo" src="../assets/2896.jpg")
     div#introduction
       h3#name @tocomi
-      p 24歳、学生です。
+      div#text
+        p 24歳、学生です。
 </template>
 
 <script lang="ts">
