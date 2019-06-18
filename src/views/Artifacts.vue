@@ -1,6 +1,6 @@
 <template lang="pug">
   div#artifacts
-    h1 Artifacts
+    h2 Artifacts
     Artifact(v-for="artifact in this.artifacts" :artifact="artifact")
 </template>
 

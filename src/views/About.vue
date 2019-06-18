@@ -1,5 +1,6 @@
 <template lang="pug">
-  div#home
+  div#about
+    h2 About
     img(alt="Vue logo" src="../assets/logo.png")
     div#introduction
       h3 @tocomi

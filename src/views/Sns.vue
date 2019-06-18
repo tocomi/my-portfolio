@@ -1,6 +1,6 @@
 <template lang="pug">
   div#sns
-    h1 SNS
+    h2 SNS
     a(href="https://twitter.com/tocomi0112" target="_blank")
       img#twitter.icon(alt="twitter" src="../assets/twitter.png")
     a(href="https://github.com/tocomi" target="_blank")
