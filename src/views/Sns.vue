@@ -26,7 +26,7 @@ export default class Home extends Vue {}
 <style lang="scss" scoped>
 #sns {
   .icon {
-    margin: 0 15px 0 15px;
+    margin: 10px 15px 0 15px;
     height: 75px;
     width: 75px;
   }
