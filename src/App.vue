@@ -40,4 +40,8 @@
 #nav a.router-link-exact-active {
   color: #42B983;
 }
+
+h2 {
+  color: #EA8A2A;
+}
 </style>
