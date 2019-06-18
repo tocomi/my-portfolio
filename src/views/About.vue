@@ -3,7 +3,8 @@
     h2 About
     img#icon(alt="Vue logo" src="../assets/2896.jpg")
     div#introduction
-      h3 @tocomi
+      h3#name @tocomi
+      p 24歳、学生です。
 </template>
 
 <script lang="ts">
