@@ -12,7 +12,7 @@
         p 2015.04- ワークスアプリケーションズ
         h3 Skill
         p Java Ruby Rails Python JavaScript Vue.js ReactNative jQuery html pug css sass Delphi COBOL shell
-        p EC2 cloudformation lambda Jenkins Ansible Docker Oracle PostgreSQL
+        p EC2 cloudformation lambda firebase Jenkins Ansible Docker Oracle PostgreSQL
 </template>
 
 <script lang="ts">
