@@ -27,14 +27,14 @@
         title: 'Portfolio',
         description: 'まさに今開いているこれです',
         skill: 'Vue.js, firebase',
-        link: 'https://umaaji-calculator.firebaseapp.com/',
-        github: 'https://github.com/tocomi/tekkaba',
+        link: '',
+        github: '',
       },
       {
         title: 'tekkaba',
         description: '競馬の予想共有アプリです。各ユーザーが登録した予想を共有します。',
         skill: 'Ruby on Rails, Vue.js, heroku',
-        link: 'https://umaaji-calculator.firebaseapp.com/',
+        link: 'https://tekkaba.herokuapp.com/',
         github: 'https://github.com/tocomi/tekkaba',
       },
     ]
