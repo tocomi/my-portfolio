@@ -19,8 +19,23 @@
       {
         title: 'Umaaji-Calculator',
         description: '競馬の予想アプリです。過去の成績から各馬のスコア(ウマ味)を算出します。',
+        skill: 'Vue.js, firebase, (Python)',
         link: 'https://umaaji-calculator.firebaseapp.com/',
         github: 'https://github.com/tocomi/umaaji-calculator',
+      },
+      {
+        title: 'Portfolio',
+        description: 'まさに今開いているこれです',
+        skill: 'Vue.js, firebase',
+        link: 'https://umaaji-calculator.firebaseapp.com/',
+        github: 'https://github.com/tocomi/tekkaba',
+      },
+      {
+        title: 'tekkaba',
+        description: '競馬の予想共有アプリです。各ユーザーが登録した予想を共有します。',
+        skill: 'Ruby on Rails, Vue.js, heroku',
+        link: 'https://umaaji-calculator.firebaseapp.com/',
+        github: 'https://github.com/tocomi/tekkaba',
       },
     ]
 

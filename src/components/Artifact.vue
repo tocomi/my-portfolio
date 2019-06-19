@@ -5,6 +5,8 @@
       a.link(:href="artifact.link" target="_blank")
     div.content
       p.description {{ artifact.description }}
+      h4 skill
+      p.skill {{ artifact.skill }}
       a(:href="artifact.github" target="_blank")
         img.icon(alt="github" src="../assets/github.png")
 </template>
@@ -25,7 +27,7 @@
 
 <style lang="scss" scoped>
 .artifact {
-  margin: auto;
+  margin: 10px auto;
   max-width: 600px;
   border-radius: 5px;
   .header {
