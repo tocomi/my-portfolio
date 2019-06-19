@@ -5,7 +5,14 @@
     div#introduction
       h3#name @tocomi
       div#text
-        p 24歳、学生です。
+        p 27歳、会社員です。
+        p 個人でWebアプリケーションを開発するのが趣味です。
+        h3 経歴
+        p 2010.04- 東北大学経済学部
+        p 2015.04- ワークスアプリケーションズ
+        h3 Skill
+        p Java Ruby Rails Python JavaScript Vue.js ReactNative jQuery html pug css sass Delphi COBOL shell
+        p EC2 cloudformation lambda Jenkins Ansible Docker Oracle PostgreSQL
 </template>
 
 <script lang="ts">
