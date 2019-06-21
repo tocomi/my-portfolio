@@ -53,7 +53,14 @@
     padding: 10px;
     border-radius: 0 0 10px 10px;
     background-color: #EAEAEA;
+    .description {
+      margin: 0;
+    }
+    .skill {
+      margin: -20px 0 0 0;
+    }
     .icon {
+      margin: 20px 0 0 0;
       height: 50px;
       width: 50px;
     }
