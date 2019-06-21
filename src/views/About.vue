@@ -5,11 +5,12 @@
     div#introduction
       h3#name @tocomi
       div#text
-        p 27歳、会社員です。
         p 個人でWebアプリケーションを開発するのが趣味です。
         h3 経歴
-        p 2010.04- 東北大学経済学部
-        p 2015.04- ワークスアプリケーションズ
+        p.bold 2010.04- 東北大学経済学部
+        p.bold 2015.04- ワークスアプリケーションズ
+        p - Webアプリケーションのバグ修正
+        p - 社内検証ツールの開発・マネジメント
         h3 Skill
         p Java Ruby Rails Python JavaScript Vue.js ReactNative jQuery html pug css sass Delphi COBOL shell
         p EC2 cloudformation lambda firebase Jenkins Ansible Docker Oracle PostgreSQL
@@ -31,6 +32,11 @@ export default class Home extends Vue {}
     border-radius: 50%;
     height: 100px;
     width: 100px;
+  }
+  #introduction {
+    .bold {
+      font-weight: bold;
+    }
   }
 }
 </style>
