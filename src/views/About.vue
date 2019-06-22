@@ -5,12 +5,13 @@
     div#introduction
       h3#name @tocomi
       div#text
+        p 社会人になるのをきっかけにエンジニアになりました。
         p 個人でWebアプリケーションを開発するのが趣味です。
         h3 経歴
         p.bold 2010.04- 東北大学経済学部
         p.bold 2015.04- ワークスアプリケーションズ
-        p - Webアプリケーションのバグ修正
-        p - 社内検証ツールの開発・マネジメント
+        p - Webアプリケーションのバグ修正(Java,html,js,css)
+        p - 社内ツールの開発・マネジメント(Java,AWS)
         h3 Skill
         p Java Ruby Rails Python JavaScript Vue.js ReactNative jQuery html pug css sass Delphi COBOL shell
         p EC2 cloudformation lambda firebase Jenkins Ansible Docker Oracle PostgreSQL

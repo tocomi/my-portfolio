@@ -25,7 +25,7 @@
       },
       {
         title: 'Portfolio',
-        description: 'まさに今開いているこれです',
+        description: '今まさに開いているこれです',
         skill: 'Vue.js, firebase',
         link: 'https://tocomi-portfolio.web.app/',
         github: '',
