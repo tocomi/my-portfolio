@@ -20,10 +20,5 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () => import('./views/Artifacts.vue')
     },
-    {
-      path: '/sns',
-      name: 'sns',
-      component: () => import('./views/Sns.vue')
-    },
   ]
 })
