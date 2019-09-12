@@ -5,7 +5,8 @@
     div#introduction
       div
         h3#name @tocomi
-        p ヤクルトファンのWebエンジニアです。
+        p スワローズを愛するWebエンジニアです。
+        p 競馬は穴党です。
       Sns.section
       div.section
         h2 Skill
