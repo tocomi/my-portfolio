@@ -6,7 +6,7 @@
       div
         h3#name @tocomi
         p ヤクルトファンのWebエンジニアです。
-      Sns
+      Sns.section
       div.section
         h2 Skill
         p Java Ruby Rails Python JavaScript Vue.js ReactNative jQuery html pug css sass Delphi COBOL shell
