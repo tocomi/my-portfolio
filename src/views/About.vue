@@ -3,11 +3,13 @@
     h2 About
     img#icon(alt="Vue logo" src="../assets/2896.jpg")
     div#introduction
-      div
+      div.section
         h3#name @tocomi
         p スワローズを愛するWebエンジニアです。
         p 競馬は穴党です。
+      hr.separator
       Sns.section
+      hr.separator
       div.section
         h2 Skill
         p Java Ruby Rails Python JavaScript Vue.js ReactNative jQuery html pug css sass Delphi COBOL shell
@@ -28,6 +30,8 @@ export default class Home extends Vue {}
 
 <style lang="scss" scoped>
 #about {
+  margin: auto;
+  max-width: 700px;
   #icon {
     border-radius: 50%;
     height: 100px;
@@ -38,7 +42,11 @@ export default class Home extends Vue {}
       font-weight: bold;
     }
     .section {
-      margin: 50px 0 0 0;
+      margin: 30px 0;
+    }
+    .separator {
+      border: 0;
+      border-top: 1px solid #DADADA;
     }
   }
   #sns {
