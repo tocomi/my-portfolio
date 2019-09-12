@@ -24,6 +24,13 @@
         github: 'https://github.com/tocomi/umaaji-calculator',
       },
       {
+        title: 'koedame',
+        description: 'Twitterのオマージュ。つぶやきに偉人たちが反応してくれます。',
+        skill: 'Vue.js, firebase',
+        link: 'https://tocomi-koedame.firebaseapp.com/',
+        github: 'https://github.com/tocomi/koedame',
+      },
+      {
         title: 'Portfolio',
         description: '今まさに開いているこれです',
         skill: 'Vue.js, firebase',
