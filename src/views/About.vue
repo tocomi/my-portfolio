@@ -5,7 +5,7 @@
     div#introduction
       div
         h3#name @tocomi
-        p Webエンジニアを志しています。
+        p ヤクルトファンのWebエンジニアです。
       div.section
         h3 経歴
         p.bold 2010.04- 東北大学経済学部
