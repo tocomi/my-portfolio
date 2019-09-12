@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link to="/">About</router-link>
       <router-link to="/artifacts">Artifacts</router-link>
-      <router-link to="/sns">SNS</router-link>
+      <!-- <router-link to="/sns">SNS</router-link> -->
     </div>
     <router-view/>
   </div>

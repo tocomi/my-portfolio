@@ -9,8 +9,8 @@
       img#qiita.icon(alt="qiita" src="../assets/qiita.png")
     a(href="https://tocomi.hatenablog.com/" target="_blank")
       img#hatena.icon(alt="hatena" src="../assets/hatena.svg")
-    //- a(href="https://www.facebook.com/kenta.tsunemi.5" target="_blank")
-    //-   img#facebook.icon(alt="facebook" src="../assets/facebook.png")
+    a(href="https://www.facebook.com/kenta.tsunemi.5" target="_blank")
+      img#facebook.icon(alt="facebook" src="../assets/facebook.png")
 </template>
 
 <script lang="ts">
