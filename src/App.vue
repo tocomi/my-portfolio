@@ -4,7 +4,9 @@
       <router-link to="/">About</router-link>
       <router-link to="/artifacts">Artifacts</router-link>
     </div>
-    <router-view/>
+    <div id="container">
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -20,7 +22,10 @@ body {
   color: #2c3e50;
 }
 #nav {
+  position: fixed;
+  width: 100%;
   padding: 20px;
+  z-index: 10000;
   background-color: #3A3A3A;
   font-size: 18px;
   a {
@@ -41,6 +46,10 @@ body {
 
 #nav a.router-link-exact-active {
   color: #42B983;
+}
+
+#container {
+  padding: 72px 0 0 0;
 }
 
 h2 {
