@@ -5,8 +5,8 @@
     div#introduction
       div.section
         h3#name @tocomi
-        p スワローズを愛するWebエンジニアです。
-        p 競馬は穴党です。
+        p 野球を愛するWebエンジニアです。
+        p 競馬は穴党。
       hr.separator
       Sns.section
       hr.separator
