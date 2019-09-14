@@ -28,6 +28,7 @@ body {
   z-index: 10000;
   background-color: #3A3A3A;
   font-size: 18px;
+  box-shadow: 0 2px 3px #3A3A3A;
   a {
     margin: 0 10px 0 10px;
     color: #FFFFFF;
