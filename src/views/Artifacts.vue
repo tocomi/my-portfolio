@@ -50,4 +50,7 @@
 </script>
 
 <style lang="scss" scoped>
+#artifacts {
+  margin: 0 16px;
+}
 </style>

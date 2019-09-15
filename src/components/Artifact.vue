@@ -50,7 +50,7 @@
     }
   }
   .content {
-    padding: 10px;
+    padding: 16px;
     border-radius: 0 0 10px 10px;
     background-color: #EAEAEA;
     .description {
