@@ -24,13 +24,13 @@ body {
 #nav {
   position: fixed;
   width: 100%;
-  padding: 20px;
+  padding: 16px 0;
   z-index: 10000;
   background-color: #3A3A3A;
   font-size: 18px;
   box-shadow: 0 2px 3px #3A3A3A;
   a {
-    margin: 0 10px 0 10px;
+    margin: 0 10px;
     color: #FFFFFF;
     text-decoration: none;
     .router-link-exact-active {
@@ -50,7 +50,7 @@ body {
 }
 
 #container {
-  padding: 72px 0 0 0;
+  padding: 64px 0 0 0;
 }
 
 h2 {
