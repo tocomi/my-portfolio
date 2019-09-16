@@ -31,6 +31,13 @@
         github: 'https://github.com/tocomi/koedame',
       },
       {
+        title: 'Smash-memo',
+        description: 'スマブラ用に特化したメモアプリ。(現状Androidのみ。Expoアプリのインストールが必要。)',
+        skill: 'React Native',
+        link: 'https://expo.io/@tocomi/smash-memo',
+        github: 'https://github.com/tocomi/smash-memo',
+      },
+      {
         title: 'Portfolio',
         description: '今まさに開いているこれです',
         skill: 'Vue.js, firebase',
